@@ -136,9 +136,10 @@ server <- function(input, output, session) {
                        |Ostreavirus ostreidmalaco1|Moumouvirus australiense|Canhaevirus hiberniae|Plateaulakevirus pv4L372XY|Franklinbayvirus fv9A|Palaemonvirus pssm7|
                        |Gemykroznavirus hydro1|Acinetobacter virus Acj61|BeAn 58058 virus|Cyvirus cyprinidallo1|Betatectivirus AP50|Pahexavirus PHL171M01|Haetaevirus PBC2|
                        |Hubei picorna-like virus 45|Mason-Pfizer monkey virus|Pinnievirus moorethemaryer|Fadolivirus algeromassiliense|Phaeocystis globosa virus|
-                       |Eceepunavirus EcP1|Orpheovirus IHUMI-LCC2|Theiavirus salishense|Gibbon ape leukemia virus|Pteropus lylei-associated alphaherpesvirus|
+                       |Eceepunavirus EcP1|Orpheovirus IHUMI-LCC2|Theiavirus salishense|Gibbon ape leukemia virus|Emiliania huxleyi virus 86|Laroyevirus laroye|
                        |Elephant endotheliotropic herpesvirus 4|Ictavirus acipenseridallo2|Firehammervirus CP21|Caeruleovirus Bcp1|White spot syndrome virus|
-                       |Cohcovirus hiberniae|Sinsheimervirus phiX174|Sida golden mottle virus|Muldoonvirus muldoon", X7, ignore.case = TRUE) & X8 == "Virus"))
+                       |Cohcovirus hiberniae|Sinsheimervirus phiX174|Sida golden mottle virus|Muldoonvirus muldoon|Anaposvirus socalone|Cyvirus cyprinidallo2|
+                       |Yellowseavirus thirtyeight|Dishui lake phycodnavirus 1|Anaposvirus socalone|Haifavirus tim68|Eponavirus epona|Muromegalovirus muridbeta1", X7, ignore.case = TRUE) & X8 == "Virus"))
     }
     
     category_selected <- input$category
