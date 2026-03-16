@@ -141,7 +141,7 @@ server <- function(input, output, session) {
                        |Cohcovirus hiberniae|Sinsheimervirus phiX174|Sida golden mottle virus|Muldoonvirus muldoon|Anaposvirus socalone|Cyvirus cyprinidallo2|
                        |Yellowseavirus thirtyeight|Dishui lake phycodnavirus 1|Anaposvirus socalone|Haifavirus tim68|Eponavirus epona|Muromegalovirus muridbeta1|
                        |Snuvirus SNUABM7|Baltimorevirus DFL12|Percavirus equidgamma5|Acanthamoeba castellanii medusavirus|Hanrivervirus slyngel|Donellivirus gee|
-                       |Biavirus raunefjordenense|Genomoviridae sp.|Asteriusvirus PBECO4|Haloferacalesvirus HRTV8|Immutovirus immuto", X7, ignore.case = TRUE) & X8 == "Virus"))
+                       |Biavirus raunefjordenense|Genomoviridae sp.|Asteriusvirus PBECO4|Haloferacalesvirus HRTV8|Immutovirus immuto|Buorbuivirus hominis", X7, ignore.case = TRUE) & X8 == "Virus"))
     }
     
     category_selected <- input$category
