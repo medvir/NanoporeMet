@@ -133,7 +133,7 @@ Navigate to your nanopore run directory and run:
 
 ``` bash
 cd /path/to/your/nanopore_run
-nanoporemet.py
+nanoporemet
 ```
 
 You will be prompted:
