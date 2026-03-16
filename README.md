@@ -108,11 +108,23 @@ wrapped in an interactive Shiny dashboard for visualization.
     - minimap2
     - samtools
 
-5.  Make the Python scripts executable:
+5.  **Make scripts globally accessible (recommended)**:
+
+    Copy the scripts to `/usr/bin/` with simplified names and make them
+    executable:
 
     ``` bash
-    chmod +x nanoporemet.py coverage.py
+    sudo cp nanoporemet.py /usr/bin/nanoporemet
+    sudo cp coverage.py /usr/bin/nanopore_coverage
+    sudo chmod +x /usr/bin/nanoporemet /usr/bin/nanopore_coverage
     ```
+
+    This allows you to run the commands `nanoporemet` and
+    `nanopore_coverage` from any directory without specifying the path.
+
+    > **Note**: If you prefer not to install globally, you can run the
+    > scripts directly with `python nanoporemet.py` and
+    > `python coverage.py` from the repository directory.
 
 ## Usage
 
@@ -303,6 +315,11 @@ if (input$hide_blocklisted_viruses) {
     - Check if the URL is accessible:
       <http://172.23.210.220:3838/NGS/NanoporeMet/>
     - Contact your system administrator if issues persist
+6.  **Command not found: nanoporemet / nanopore_coverage**
+    - If you didn’t install globally, use `python nanoporemet.py` or
+      `python coverage.py` instead
+    - Or install globally with the commands in step 5 of the
+      Installation section
 
 ## Acknowledgments
 
