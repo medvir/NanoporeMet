@@ -157,11 +157,20 @@ You will be prompted:
 - Answer `yes/y` for viral+bacterial analysis
 - Answer `no/n` for viral-only analysis
 
-The script will: 1. Generate `sequencing_summary.pdf` with Q-score and
-length distributions 2. Process each barcode folder in `fastq_pass/` 3.
-Run Kraken2 analysis on each barcode 4. Create combined output file: -
-`virus.kraken.txt` (viral-only mode) - `virus_bacteria.kraken.txt`
-(viral+bacterial mode)
+The script will:
+
+1.  Generate `sequencing_summary.pdf` with Q-score and length
+    distributions
+
+2.  Process each barcode folder in `fastq_pass/`
+
+3.  Run Kraken2 analysis on each barcode
+
+4.  Create combined output file:
+
+    - `virus.kraken.txt` (viral-only mode)
+
+    - `virus_bacteria.kraken.txt` (viral+bacterial mode)
 
 ### 2. Run Coverage Analysis (Optional)
 
@@ -179,11 +188,22 @@ You will be prompted:
 Provide the path to a directory containing a single `.fasta` reference
 file.
 
-The script will: 1. Concatenate all FASTQ files 2. Map reads to
-reference with minimap2 3. Generate sorted BAM file 4. Calculate
-coverage depth 5. Create coverage plot PDF with: - Log-scale coverage
-depth - Horizontal coverage percentage - Mean vertical coverage (X) -
-Genome position axis
+The script will:
+
+1.  Concatenate all FASTQ files
+
+2.  Map reads to reference with minimap2
+
+3.  Generate sorted BAM file
+
+4.  Calculate coverage depth
+
+5.  Create coverage plot PDF with:
+
+    - Log-scale coverage depth
+    - Horizontal coverage percentage
+    - Mean vertical coverage (X)
+    - Genome position axis
 
 Output structure:
 
@@ -255,9 +275,17 @@ Sequence length (quality-filtered reads, log-scale)
 
 ### Coverage Plot
 
-Features: - Log-scale y-axis for coverage depth - Genome position on
-x-axis - Horizontal coverage percentage - Mean vertical coverage (X) -
-Minimalist styling with light-grey gridlines
+Features:
+
+- Log-scale y-axis for coverage depth
+
+- Genome position on x-axis
+
+- Horizontal coverage percentage
+
+- Mean vertical coverage (X)
+
+- Minimalist styling with light-grey gridlines
 
 ### Shiny Dashboard Colors
 
