@@ -169,7 +169,6 @@ The script will:
 4.  Create combined output file:
 
     - `virus.kraken.txt` (viral-only mode)
-
     - `virus_bacteria.kraken.txt` (viral+bacterial mode)
 
 ### 2. Run Coverage Analysis (Optional)
@@ -276,13 +275,9 @@ The PDF includes four plots:
 Features:
 
 - Log-scale y-axis for coverage depth
-
 - Genome position on x-axis
-
 - Horizontal coverage percentage
-
 - Mean vertical coverage (X)
-
 - Minimalist styling with light-grey gridlines
 
 ### Shiny Dashboard Colors
