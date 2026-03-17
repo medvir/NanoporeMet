@@ -264,9 +264,12 @@ Or open `app.R` in RStudio and click “Run App”.
 
 ### Sequencing Summary
 
-The PDF includes four plots: 1. Mean Q-score (all reads) 2. Mean Q-score
-(quality-filtered reads) 3. Sequence length (all reads, log-scale) 4.
-Sequence length (quality-filtered reads, log-scale)
+The PDF includes four plots:
+
+1.  Mean Q-score (all reads)
+2.  Mean Q-score (quality-filtered reads)
+3.  Sequence length (all reads, log-scale)
+4.  Sequence length (quality-filtered reads, log-scale)
 
 ### Coverage Plot
 
