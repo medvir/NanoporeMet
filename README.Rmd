@@ -163,11 +163,8 @@ Do you wish to analyze bacterial reads? (yes/y or no/n):
 The script will:
 
 1. Generate `sequencing_summary.pdf` with Q-score and length distributions
-
 2. Process each barcode folder in `fastq_pass/`
-
 3. Run Kraken2 analysis on each barcode
-
 4. Create combined output file:
 
    - `virus.kraken.txt` (viral-only mode)
@@ -193,13 +190,9 @@ Provide the path to a directory containing a single `.fasta` reference file.
 The script will:
 
 1. Concatenate all FASTQ files
-
 2. Map reads to reference with minimap2
-
 3. Generate sorted BAM file
-
 4. Calculate coverage depth
-
 5. Create coverage plot PDF with:
    - Log-scale coverage depth
    - Horizontal coverage percentage

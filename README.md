@@ -191,15 +191,10 @@ file.
 The script will:
 
 1.  Concatenate all FASTQ files
-
 2.  Map reads to reference with minimap2
-
 3.  Generate sorted BAM file
-
 4.  Calculate coverage depth
-
 5.  Create coverage plot PDF with:
-
     - Log-scale coverage depth
     - Horizontal coverage percentage
     - Mean vertical coverage (X)
